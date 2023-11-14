@@ -7,7 +7,7 @@ import re
 
 
 
-image_path = 'demoTable.png.png'
+image_path = 'demoTable.png'
 img = cv2.imread(image_path,0)
 _, bitnot = cv2.threshold(img, 128, 255, cv2.THRESH_BINARY)
 
